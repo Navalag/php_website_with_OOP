@@ -3,7 +3,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-require __DIR__ . '/vendor/autoload.php';
+require 'vendor/autoload.php';
 date_default_timezone_set('Europe/Kiev');
 
 // use Monolog\Logger;
@@ -21,15 +21,15 @@ $view = $app->view();
 $view->parserOptions = array(
     'debug' => true
 );
-
-$app->get('/', function () use($app) {
-    $app->render('about.twig');
-});
 $view->parserExtensions = array(
     new \Slim\Views\TwigExtension(),
 );
 
-$app->get('/contact', function () use($app) {
+$app->get('/', function() use($app) {
+    $app->render('about.twig');
+});
+
+$app->get('/contact', function() use($app) {
     $app->render('contact.twig');
 });
 
