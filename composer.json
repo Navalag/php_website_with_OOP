@@ -1,10 +1,16 @@
 {
-    "name": "andrij/php_website_with_oop",
+    "name": "root/workspace",
+    "authors": [
+        {
+            "name": "Hampton Paulk",
+            "email": "hampton@teamtreehouse.com"
+        }
+    ],
     "require": {
-        "monolog/monolog": "^1.23",
+        "monolog/monolog": "~1.13",
         "slim/slim": "~2.6",
-        "twig/twig": "^2.5",
-        "slim/views": "^0.1.3",
-        "swiftmailer/swiftmailer": "^6.1"
+        "twig/twig": "~1.18",
+        "slim/views": "0.1.*",
+        "swiftmailer/swiftmailer": "~5.4"
     }
 }
