@@ -15,6 +15,6 @@ The idea is to use modern approach to build a website.
 :heavy_check_mark: Monolog
 
 <img src="screenshots/Screen Shot 2018-08-24 at 15.56.44.png">
-<img src="screenshots/Screen Shot 2018-08-24 at 15.56.44.png">
+<img src="screenshots/Screen Shot 2018-08-24 at 15.57.17.png">
 
 ## Source - [Treehouse](https://teamtreehouse.com/)
